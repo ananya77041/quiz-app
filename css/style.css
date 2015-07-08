@@ -1,0 +1,93 @@
+/* Progress Bar */
+#prog-bar {
+	width: 50em;
+	margin: 0 auto;
+	margin-top: 1em;
+	border: solid 1px black;
+}
+
+#prog-nodes {
+	padding: 0;
+	margin: 1em 1em;
+	width: 48em;
+	display: table;
+	table-layout: fixed;
+}
+
+.node {
+	display: inline-block;
+	text-align: center;
+	width: 2em;
+	height: 2em;
+	margin-left: 2.47em;
+	border: solid 1px black;
+	border-radius: 50% / 50%;
+	background-color: black;
+}
+
+/* Quiz box */
+#quiz-box {
+	width: 25em;
+	height: 30em;
+	margin: 0 auto;
+	margin-top: 5em;
+	padding: 1em 2em;
+	text-align: center;
+	border: solid 1px black;
+	position: relative;
+}
+
+#start-state {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#start {
+	margin-top: 7em;
+	padding: 1em;
+	background-color: white;
+	border: solid 1px black;
+	font-size: 2em;
+}
+
+#question {
+	border: solid 1px black;
+	padding: .2em .5em;
+	font-size: 2em;
+	margin: .3em 0;
+}
+
+#answers-box {
+	height: 65%;
+	padding: 1em 0;
+
+}
+
+#answers {
+	padding: 0;
+	list-style: none;
+}
+
+.answer {
+	margin: 1em auto;
+	height: 3.5em;
+	width: 21em;
+	border: solid 1px black;
+	cursor: pointer;
+}
+
+.help {
+	width: 30%;
+	display: inline-block;
+	padding: 1em;
+	background-color: white;
+	border: solid 1px black;
+	margin: 0 1em;
+}
+
+
+

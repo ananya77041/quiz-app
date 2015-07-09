@@ -25,20 +25,39 @@
 	background-color: black;
 }
 
+.correct {
+	background-color: green;
+}
+
+.incorrect {
+	background-color: red;
+}
+
+.unanswered {
+	background-color: white;
+}
+
 /* Quiz box */
 #quiz-box {
 	width: 25em;
 	height: 30em;
 	margin: 0 auto;
 	margin-top: 5em;
-	padding: 1em 2em;
+	padding: 2em 2em;
 	text-align: center;
 	border: solid 1px black;
 	position: relative;
 }
 
+#quiz {
+	display:none;
+}
+
+#score {
+	display:none;
+}
+
 #start-state {
-	display: none;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -56,9 +75,14 @@
 
 #question {
 	border: solid 1px black;
+	width: 24em;
+	height: 5em;
 	padding: .2em .5em;
-	font-size: 2em;
-	margin: .3em 0;
+	margin: 0 auto;
+}
+
+#question span {
+
 }
 
 #answers-box {

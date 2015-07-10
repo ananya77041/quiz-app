@@ -102,7 +102,7 @@ $(document).ready(function() {
 	// Start quiz
 	$('#start, #restart').on('click', function() {
 		$('.node').removeClass('correct').removeClass('incorrect');
-		#('button').removeClass('disabled');
+		$('button').removeClass('disabled');
 		$('.overlay').fadeOut(500, function() {
 			$('#quiz').fadeIn(500);
 		});

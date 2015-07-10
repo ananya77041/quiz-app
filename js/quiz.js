@@ -101,6 +101,7 @@ $(document).ready(function() {
 
 	// Start quiz
 	$('#start, #restart').on('click', function() {
+		currentQuestion = 1;
 		$('.node').removeClass('correct').removeClass('incorrect');
 		$('button').removeClass('disabled');
 		$('.overlay').fadeOut(500, function() {

@@ -76,6 +76,7 @@ $(document).ready(function() {
 		var score = $('.node.correct').length;
 		if (score > 5) {
 			var msg = "Wow! You got " + score + " out of " + QUESTIONS.length + "! Nice Job!";
+			$('#restart').fadeIn(500);
 		}
 		else {
 			var msg = "You only got " + score + " out of " + QUESTIONS.length;
